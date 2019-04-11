@@ -1,0 +1,496 @@
+{
+  "errors": [
+  ],
+  "warnings": [
+  ],
+  "version": "4.29.6",
+  "hash": "25d6ee974afbf9411fa5",
+  "time": 2798,
+  "builtAt": 1554970193559,
+  "publicPath": "",
+  "outputPath": "C:\\Users\\weber\\source\\repos\\normalModuleReplacmentPlugin-issue-windows\\dist",
+  "assetsByChunkName": {
+    "fooBar": [
+      "fooBar.js",
+      "fooBar.js.map"
+    ]
+  },
+  "assets": [
+    {
+      "name": "fooBar.js",
+      "size": 1572,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "fooBar"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "fooBar.js.map",
+      "size": 5979,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "fooBar"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "typings\\classes\\example.d.ts",
+      "size": 61,
+      "chunks": [
+      ],
+      "chunkNames": [
+      ],
+      "emitted": true
+    },
+    {
+      "name": "typings\\environments\\environment.d.ts",
+      "size": 106,
+      "chunks": [
+      ],
+      "chunkNames": [
+      ],
+      "emitted": true
+    },
+    {
+      "name": "typings\\environments\\environment.interface.d.ts",
+      "size": 54,
+      "chunks": [
+      ],
+      "chunkNames": [
+      ],
+      "emitted": true
+    },
+    {
+      "name": "typings\\environments\\environment.prod.d.ts",
+      "size": 106,
+      "chunks": [
+      ],
+      "chunkNames": [
+      ],
+      "emitted": true
+    },
+    {
+      "name": "typings\\index.d.ts",
+      "size": 42,
+      "chunks": [
+      ],
+      "chunkNames": [
+      ],
+      "emitted": true
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "fooBar": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "fooBar.js",
+        "fooBar.js.map"
+      ],
+      "children": {
+      },
+      "childAssets": {
+      }
+    }
+  },
+  "namedChunkGroups": {
+    "fooBar": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "fooBar.js",
+        "fooBar.js.map"
+      ],
+      "children": {
+      },
+      "childAssets": {
+      }
+    }
+  },
+  "chunks": [
+    {
+      "id": 0,
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 627,
+      "names": [
+        "fooBar"
+      ],
+      "files": [
+        "fooBar.js",
+        "fooBar.js.map"
+      ],
+      "hash": "bcd7a79e92f4834e02c1",
+      "siblings": [
+      ],
+      "parents": [
+      ],
+      "children": [
+      ],
+      "childrenByOrder": {
+      },
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "C:\\Users\\weber\\source\\repos\\normalModuleReplacmentPlugin-issue-windows\\node_modules\\ts-loader\\index.js??ref--4-0!C:\\Users\\weber\\source\\repos\\normalModuleReplacmentPlugin-issue-windows\\src\\index.ts",
+          "name": "./src/index.ts",
+          "index": 0,
+          "index2": 2,
+          "size": 156,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "profile": {
+            "factory": 52,
+            "building": 1673
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "./src/index.ts",
+              "loc": "fooBar"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 0,
+          "source": "\"use strict\";\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nvar example_1 = require(\"./classes/example\");\r\nexports.Foo = example_1.Foo;\r\n"
+        },
+        {
+          "id": 1,
+          "identifier": "C:\\Users\\weber\\source\\repos\\normalModuleReplacmentPlugin-issue-windows\\node_modules\\ts-loader\\index.js??ref--4-0!C:\\Users\\weber\\source\\repos\\normalModuleReplacmentPlugin-issue-windows\\src\\classes\\example.ts",
+          "name": "./src/classes/example.ts",
+          "index": 1,
+          "index2": 1,
+          "size": 344,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "C:\\Users\\weber\\source\\repos\\normalModuleReplacmentPlugin-issue-windows\\node_modules\\ts-loader\\index.js??ref--4-0!C:\\Users\\weber\\source\\repos\\normalModuleReplacmentPlugin-issue-windows\\src\\index.ts",
+          "issuerId": 0,
+          "issuerName": "./src/index.ts",
+          "issuerPath": [
+            {
+              "id": 0,
+              "identifier": "C:\\Users\\weber\\source\\repos\\normalModuleReplacmentPlugin-issue-windows\\node_modules\\ts-loader\\index.js??ref--4-0!C:\\Users\\weber\\source\\repos\\normalModuleReplacmentPlugin-issue-windows\\src\\index.ts",
+              "name": "./src/index.ts",
+              "profile": {
+                "factory": 52,
+                "building": 1673
+              }
+            }
+          ],
+          "profile": {
+            "factory": 6,
+            "building": 52
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "C:\\Users\\weber\\source\\repos\\normalModuleReplacmentPlugin-issue-windows\\node_modules\\ts-loader\\index.js??ref--4-0!C:\\Users\\weber\\source\\repos\\normalModuleReplacmentPlugin-issue-windows\\src\\index.ts",
+              "module": "./src/index.ts",
+              "moduleName": "./src/index.ts",
+              "type": "cjs require",
+              "userRequest": "./classes/example",
+              "loc": "3:16-44"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1,
+          "source": "\"use strict\";\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nvar environment_1 = require(\"../environments/environment\");\r\nvar Foo = /** @class */ (function () {\r\n    function Foo() {\r\n    }\r\n    Foo.printEnv = function () {\r\n        console.log(environment_1.environment);\r\n    };\r\n    return Foo;\r\n}());\r\nexports.Foo = Foo;\r\n"
+        },
+        {
+          "id": 2,
+          "identifier": "C:\\Users\\weber\\source\\repos\\normalModuleReplacmentPlugin-issue-windows\\node_modules\\ts-loader\\index.js??ref--4-0!C:\\Users\\weber\\source\\repos\\normalModuleReplacmentPlugin-issue-windows\\src\\environments\\environment.ts",
+          "name": "./src/environments/environment.ts",
+          "index": 2,
+          "index2": 0,
+          "size": 127,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "C:\\Users\\weber\\source\\repos\\normalModuleReplacmentPlugin-issue-windows\\node_modules\\ts-loader\\index.js??ref--4-0!C:\\Users\\weber\\source\\repos\\normalModuleReplacmentPlugin-issue-windows\\src\\classes\\example.ts",
+          "issuerId": 1,
+          "issuerName": "./src/classes/example.ts",
+          "issuerPath": [
+            {
+              "id": 0,
+              "identifier": "C:\\Users\\weber\\source\\repos\\normalModuleReplacmentPlugin-issue-windows\\node_modules\\ts-loader\\index.js??ref--4-0!C:\\Users\\weber\\source\\repos\\normalModuleReplacmentPlugin-issue-windows\\src\\index.ts",
+              "name": "./src/index.ts",
+              "profile": {
+                "factory": 52,
+                "building": 1673
+              }
+            },
+            {
+              "id": 1,
+              "identifier": "C:\\Users\\weber\\source\\repos\\normalModuleReplacmentPlugin-issue-windows\\node_modules\\ts-loader\\index.js??ref--4-0!C:\\Users\\weber\\source\\repos\\normalModuleReplacmentPlugin-issue-windows\\src\\classes\\example.ts",
+              "name": "./src/classes/example.ts",
+              "profile": {
+                "factory": 6,
+                "building": 52
+              }
+            }
+          ],
+          "profile": {
+            "factory": 2,
+            "building": 31
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "C:\\Users\\weber\\source\\repos\\normalModuleReplacmentPlugin-issue-windows\\node_modules\\ts-loader\\index.js??ref--4-0!C:\\Users\\weber\\source\\repos\\normalModuleReplacmentPlugin-issue-windows\\src\\classes\\example.ts",
+              "module": "./src/classes/example.ts",
+              "moduleName": "./src/classes/example.ts",
+              "type": "cjs require",
+              "userRequest": "../environments/environment",
+              "loc": "3:20-58"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 2,
+          "source": "\"use strict\";\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.environment = {\r\n    bar: 'Normal'\r\n};\r\n"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "fooBar",
+          "request": "./src/index.ts",
+          "reasons": [
+          ]
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": 0,
+      "identifier": "C:\\Users\\weber\\source\\repos\\normalModuleReplacmentPlugin-issue-windows\\node_modules\\ts-loader\\index.js??ref--4-0!C:\\Users\\weber\\source\\repos\\normalModuleReplacmentPlugin-issue-windows\\src\\index.ts",
+      "name": "./src/index.ts",
+      "index": 0,
+      "index2": 2,
+      "size": 156,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "profile": {
+        "factory": 52,
+        "building": 1673
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+      ],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "type": "single entry",
+          "userRequest": "./src/index.ts",
+          "loc": "fooBar"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 0,
+      "source": "\"use strict\";\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nvar example_1 = require(\"./classes/example\");\r\nexports.Foo = example_1.Foo;\r\n"
+    },
+    {
+      "id": 1,
+      "identifier": "C:\\Users\\weber\\source\\repos\\normalModuleReplacmentPlugin-issue-windows\\node_modules\\ts-loader\\index.js??ref--4-0!C:\\Users\\weber\\source\\repos\\normalModuleReplacmentPlugin-issue-windows\\src\\classes\\example.ts",
+      "name": "./src/classes/example.ts",
+      "index": 1,
+      "index2": 1,
+      "size": 344,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "C:\\Users\\weber\\source\\repos\\normalModuleReplacmentPlugin-issue-windows\\node_modules\\ts-loader\\index.js??ref--4-0!C:\\Users\\weber\\source\\repos\\normalModuleReplacmentPlugin-issue-windows\\src\\index.ts",
+      "issuerId": 0,
+      "issuerName": "./src/index.ts",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "C:\\Users\\weber\\source\\repos\\normalModuleReplacmentPlugin-issue-windows\\node_modules\\ts-loader\\index.js??ref--4-0!C:\\Users\\weber\\source\\repos\\normalModuleReplacmentPlugin-issue-windows\\src\\index.ts",
+          "name": "./src/index.ts",
+          "profile": {
+            "factory": 52,
+            "building": 1673
+          }
+        }
+      ],
+      "profile": {
+        "factory": 6,
+        "building": 52
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+      ],
+      "reasons": [
+        {
+          "moduleId": 0,
+          "moduleIdentifier": "C:\\Users\\weber\\source\\repos\\normalModuleReplacmentPlugin-issue-windows\\node_modules\\ts-loader\\index.js??ref--4-0!C:\\Users\\weber\\source\\repos\\normalModuleReplacmentPlugin-issue-windows\\src\\index.ts",
+          "module": "./src/index.ts",
+          "moduleName": "./src/index.ts",
+          "type": "cjs require",
+          "userRequest": "./classes/example",
+          "loc": "3:16-44"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 1,
+      "source": "\"use strict\";\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nvar environment_1 = require(\"../environments/environment\");\r\nvar Foo = /** @class */ (function () {\r\n    function Foo() {\r\n    }\r\n    Foo.printEnv = function () {\r\n        console.log(environment_1.environment);\r\n    };\r\n    return Foo;\r\n}());\r\nexports.Foo = Foo;\r\n"
+    },
+    {
+      "id": 2,
+      "identifier": "C:\\Users\\weber\\source\\repos\\normalModuleReplacmentPlugin-issue-windows\\node_modules\\ts-loader\\index.js??ref--4-0!C:\\Users\\weber\\source\\repos\\normalModuleReplacmentPlugin-issue-windows\\src\\environments\\environment.ts",
+      "name": "./src/environments/environment.ts",
+      "index": 2,
+      "index2": 0,
+      "size": 127,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "C:\\Users\\weber\\source\\repos\\normalModuleReplacmentPlugin-issue-windows\\node_modules\\ts-loader\\index.js??ref--4-0!C:\\Users\\weber\\source\\repos\\normalModuleReplacmentPlugin-issue-windows\\src\\classes\\example.ts",
+      "issuerId": 1,
+      "issuerName": "./src/classes/example.ts",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "C:\\Users\\weber\\source\\repos\\normalModuleReplacmentPlugin-issue-windows\\node_modules\\ts-loader\\index.js??ref--4-0!C:\\Users\\weber\\source\\repos\\normalModuleReplacmentPlugin-issue-windows\\src\\index.ts",
+          "name": "./src/index.ts",
+          "profile": {
+            "factory": 52,
+            "building": 1673
+          }
+        },
+        {
+          "id": 1,
+          "identifier": "C:\\Users\\weber\\source\\repos\\normalModuleReplacmentPlugin-issue-windows\\node_modules\\ts-loader\\index.js??ref--4-0!C:\\Users\\weber\\source\\repos\\normalModuleReplacmentPlugin-issue-windows\\src\\classes\\example.ts",
+          "name": "./src/classes/example.ts",
+          "profile": {
+            "factory": 6,
+            "building": 52
+          }
+        }
+      ],
+      "profile": {
+        "factory": 2,
+        "building": 31
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+      ],
+      "reasons": [
+        {
+          "moduleId": 1,
+          "moduleIdentifier": "C:\\Users\\weber\\source\\repos\\normalModuleReplacmentPlugin-issue-windows\\node_modules\\ts-loader\\index.js??ref--4-0!C:\\Users\\weber\\source\\repos\\normalModuleReplacmentPlugin-issue-windows\\src\\classes\\example.ts",
+          "module": "./src/classes/example.ts",
+          "moduleName": "./src/classes/example.ts",
+          "type": "cjs require",
+          "userRequest": "../environments/environment",
+          "loc": "3:20-58"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 2,
+      "source": "\"use strict\";\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.environment = {\r\n    bar: 'Normal'\r\n};\r\n"
+    }
+  ],
+  "filteredModules": 0,
+  "children": [
+  ]
+}
