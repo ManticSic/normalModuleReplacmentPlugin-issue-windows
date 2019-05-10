@@ -11,7 +11,7 @@ module.exports = {
             generateStatsFile: true
         } ),
         new webpack.NormalModuleReplacementPlugin(
-            /src\/environments\/environment.ts/,
+            /src[\\\/]environments[\\\/]environment.ts/,
             './environment.prod.ts'
         ),
     ],
